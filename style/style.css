@@ -1,16 +1,7 @@
-* {font-family: "Roboto", sans-serif}
-
-/*animação*/
-[data-anime] {
-    opacity: 0;
-    transition: 1s;
+* {
+    font-family: "Roboto", sans-serif
 }
 
-[data-anime="left"] {
-    transform: translate3d(-100%, 0, 0);
-}
-
-[data-anime].animate {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
+footer a{
+    margin: 0 8px;
 }
