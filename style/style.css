@@ -1,7 +1,38 @@
 * {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-footer a{
+a {
+    text-decoration: none;
+}
+
+.w3-round-xlarge {
+    margin-bottom: 20px;
+}
+
+.w3-large {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
     margin: 0 8px;
+}
+
+iframe {
+    width: 70%;
+    height: 400px; 
+    border: 0;
+}
+
+/*mediaquare para a tela quando estiver do tamanho 768px*/
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+    }
 }
